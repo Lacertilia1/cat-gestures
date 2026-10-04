@@ -4,5 +4,22 @@
 <body>
 <header><div><h1>Gesture Reactions<span>.</span></h1></div><div class="controls"><button id="camera-button">Запустить камеру</button></div></header>
 <main><section class="panel camera-panel"><div class="panel-top"><span>01 / ТВОЙ ЖЕСТ</span><span id="camera-status">КАМЕРА ВЫКЛЮЧЕНА</span></div><div class="video-stage"><video id="video" autoplay muted playsinline></video><canvas id="overlay"></canvas><div id="camera-placeholder">◉<small>Нажми «Запустить камеру»</small></div></div></section><section class="panel cat-panel"><div class="panel-top"><span>02 / РЕАКЦИЯ</span></div><div class="reaction-stage"><img id="reaction-image" alt="" hidden><div id="reaction-emoji" aria-live="polite"></div></div></section></main>
+<details class="gesture-guide">
+<summary>Как пользоваться · Доступные жесты <span aria-hidden="true">＋</span></summary>
+<div class="guide-content">
+<p class="guide-intro">Запусти камеру и разреши доступ. Покажи жест любой рукой и удерживай его немного: кот появится после короткой задержки. Убери жест — вернется обычный кот.</p>
+<div class="guide-grid">
+<article><img src="./assets/cats/fist.jpg" alt="Кот с кулаком" loading="lazy"><div><h2>✊ Кулак</h2><p>Сожми пальцы в кулак. Направление руки не важно.</p></div></article>
+<article><img src="./assets/cats/thumb-up.png" alt="Кот с большим пальцем вверх" loading="lazy"><div><h2>👍 Большой палец вверх</h2><p>Подними большой палец, остальные согни.</p></div></article>
+<article><img src="./assets/cats/point-up.png" alt="Кот в очках" loading="lazy"><div><h2>☝️ Указательный вверх</h2><p>Подними только указательный палец вертикально вверх.</p></div></article>
+<article><img src="./assets/cats/point-camera.gif" alt="Смеющийся кот" loading="lazy"><div><h2>👉 Палец в камеру + открытый рот</h2><p>Направь указательный палец в объектив и открой рот. Остальные пальцы согни.</p></div></article>
+<article><img src="./assets/cats/victory.png" alt="Кот с жестом peace" loading="lazy"><div><h2>✌️ Peace</h2><p>Разведи указательный и средний пальцы буквой V. Остальные согни.</p></div></article>
+<article><img src="./assets/cats/shaka.png" alt="Кот с жестом шака" loading="lazy"><div><h2>🤙 Шака</h2><p>Выпрями большой палец и мизинец. Три пальца в середине согни.</p></div></article>
+<article><img src="./assets/cats/sshhh.png" alt="Кот делает шшш" loading="lazy"><div><h2>🤫 Шшш</h2><p>Поднеси вертикальный указательный палец к губам. Лицо должно быть видно камере.</p></div></article>
+<article><img src="./assets/cats/middle-finger.png" alt="Кот со средним пальцем" loading="lazy"><div><h2>🖕 Средний палец</h2><p>Выпрями только средний палец, остальные согни.</p></div></article>
+</div>
+<p class="guide-note">Для проверки показывай один жест за раз. Держи кисть целиком в кадре и используй хорошее освещение. Картинки отражаются по стороне руки на экране; обычный кот не отражается. Все распознавание происходит в твоем браузере.</p>
+</div>
+</details>
 <footer><p id="message" role="status"></p></footer>
 <script type="module" src="./src/main.js"></script></body></html>

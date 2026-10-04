@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gesture Reactions</title><link rel="stylesheet" href="./style.css"></head>
+<body>
+<header><div><h1>Gesture Reactions<span>.</span></h1></div><div class="controls"><button id="camera-button">Запустить камеру</button></div></header>
+<main><section class="panel camera-panel"><div class="panel-top"><span>01 / ТВОЙ ЖЕСТ</span><span id="camera-status">КАМЕРА ВЫКЛЮЧЕНА</span></div><div class="video-stage"><video id="video" autoplay muted playsinline></video><canvas id="overlay"></canvas><div id="camera-placeholder">◉<small>Нажми «Запустить камеру»</small></div></div></section><section class="panel cat-panel"><div class="panel-top"><span>02 / РЕАКЦИЯ</span></div><div class="reaction-stage"><img id="reaction-image" alt="" hidden><div id="reaction-emoji" aria-live="polite"></div></div></section></main>
+<footer><p id="message" role="status"></p></footer>
+<script type="module" src="./src/main.js"></script></body></html>

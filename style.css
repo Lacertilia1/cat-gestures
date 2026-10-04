@@ -39,3 +39,8 @@ main{align-items:start}
 .gesture-table tbody th{font-weight:600;width:42%}.gesture-table td{color:#a3ad9e}
 .gesture-table p{font-size:11px;line-height:1.6;margin:12px 8px 0}
 @media(max-width:760px){.gesture-table{padding:14px 10px 12px}.gesture-table tbody th{width:44%}}
+
+.tracking-help{margin:14px 8px 0;border-top:1px solid #354033;padding-top:12px;font-size:12px;line-height:1.6}
+.tracking-help summary{cursor:pointer;color:#c6f57a;font-weight:600}
+.tracking-help summary:focus-visible{outline:2px solid #c6f57a;outline-offset:4px}
+.tracking-help p{margin:10px 0;font-size:12px}.tracking-help ul{padding-left:18px;color:#a3ad9e}.tracking-help li+li{margin-top:8px}
